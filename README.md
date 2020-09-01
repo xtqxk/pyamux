@@ -42,12 +42,6 @@ async def client_init(session):
     print("start send,%s" % ret)
     ret, err = await _stream.write(b"pong")
     print("start send,%s" % ret)
-    # await asyncio.sleep(2)
-    # ret, err = await _stream.write(b"do you know?")
-    # print("start send,%s" % ret)
-
-    # ret, err = await _stream.write(b"xtlldddd")
-    # print("start send,%s" % ret)
 
 
 async def client():
